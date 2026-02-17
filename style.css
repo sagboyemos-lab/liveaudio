@@ -13,9 +13,10 @@
 
 /* ---- HEADER---- */
 .header {
-    width: 100%;
-/*     margin: auto;
- */    position: fixed;
+    position: sticky;
+    top: 0;
+    width: 90%;
+    margin: auto;
     background-color: white;
     top: 0;
     right: 0;
@@ -23,8 +24,6 @@
 }
 
 .header-con {
-    width: 90%;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,7 +74,7 @@
 
 .txt .bi-list {
     display: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -134,6 +133,7 @@
 
     .header .txt .plus {
         font-size: 0.8rem;
+        padding: 5px;
     }
 }
 
@@ -251,13 +251,15 @@
     }
 
     .section1-con h1 {
-        width: 50%;
+        width: 100%;
         margin: 5px auto;
+        font-size: 2.5rem;
     }
 
     .section1-con p {
-        width: 50%;
+        width: 100%;
         margin: 20px auto;
+        font-size: 1rem;
 
     }
 
@@ -311,7 +313,7 @@
     }
 
     .section2-con h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -330,7 +332,7 @@
 .section3 h1 {
     text-align: center;
     padding: 50px 0;
-    font-size: 3rem;
+    font-size: 3.5rem;
 
 }
 
@@ -508,6 +510,11 @@
         grid-template-columns: 1fr;
         width: 100%;
     }
+    .section3-con h1{
+        font-size: 2rem;
+        width: 80%;
+        margin: auto;
+    }
 
     .slide1,
     .slide2,
@@ -609,7 +616,7 @@
 @media (max-width:826px) {
     .section4-con h1 {
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .section4-con p {
@@ -624,6 +631,9 @@
 
     .linkk a {
         width: 100%;
+    }
+    .section4-con{
+        padding: 20px;
     }
 }
 
@@ -701,10 +711,11 @@
     }
     .section5-con h1{
         width: 95%;
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-bottom: 20px;
     }
     .section5-con p{
         width: 95%;
+        font-size: 1rem;
     }
 }
